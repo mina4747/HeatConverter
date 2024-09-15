@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(239, 237, 234);
+    display: grid; 
+    width: max;
+    height: max;
+}
+.container{
+    display: grid;
+    width: 70%;
+    height: 70vh;
+    background-color: rgb(234, 61, 61);
+    place-self: center;
+    place-content: center;
+    border-radius: 60px;
+  
+    
+}
+form{
+    display: grid;
+    place-items: center;
+}
+input{
+
+    margin: 10px;
+    place-self: center;
+    border-radius: 6px;
+    border-color: rgb(240, 105, 105);
+    width: 200px;
+}
